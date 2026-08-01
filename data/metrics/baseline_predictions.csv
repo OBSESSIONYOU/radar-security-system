@@ -1,0 +1,15 @@
+sample_id,subject_id,known_split,condition,predicted_label,nearest_known_label,is_unknown_truth,is_unknown_pred,confidence,open_set_score,distance,distance_threshold,decision
+worker_01_s02_0000,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.5502,0.5963,0.833385,1.397682,allow
+worker_01_s02_0001,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.6078,0.5626,0.786321,1.397682,allow
+worker_01_s02_0002,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.5613,0.9225,1.289306,1.397682,allow
+worker_01_s02_0003,worker_01,known_test,protective_suit,worker_02,worker_02,false,false,0.5276,0.9524,1.331125,1.397682,review
+worker_01_s02_0004,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.5422,0.7381,1.031691,1.397682,review
+worker_01_s02_0005,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.5897,0.6646,0.928874,1.397682,allow
+worker_01_s02_0006,worker_01,known_test,protective_suit,worker_01,worker_01,false,false,0.6132,0.8544,1.194238,1.397682,allow
+visitor_x_s01_0000,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.6060,1.2865,1.798134,1.397682,alarm
+visitor_x_s01_0001,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.6100,1.2694,1.774168,1.397682,alarm
+visitor_x_s01_0002,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.6026,1.3020,1.819817,1.397682,alarm
+visitor_x_s01_0003,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.5873,1.3997,1.956377,1.397682,alarm
+visitor_x_s01_0004,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.5868,1.8021,2.518776,1.397682,alarm
+visitor_x_s01_0005,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.6469,1.7445,2.438275,1.397682,alarm
+visitor_x_s01_0006,visitor_x,unknown_test,unknown_entry,unknown,worker_02,true,true,0.6648,1.5299,2.138268,1.397682,alarm

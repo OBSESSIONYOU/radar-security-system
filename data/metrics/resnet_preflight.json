@@ -1,0 +1,43 @@
+{
+  "model": "resnet18",
+  "epochs": 20,
+  "batch_size": 16,
+  "samples_path": ".\\data\\generated\\samples.csv",
+  "torch_available": false,
+  "torch_status": "No module named 'torch'",
+  "ready_for_training": false,
+  "blocking_issues": [],
+  "warnings": [
+    "known_test does not cover registered identities: ['worker_02']"
+  ],
+  "sample_summary": {
+    "total_samples": 28,
+    "samples_by_split": {
+      "known_train": 14,
+      "known_test": 7,
+      "unknown_test": 7
+    },
+    "subjects_by_split": {
+      "known_train": [
+        "worker_01",
+        "worker_02"
+      ],
+      "known_test": [
+        "worker_01"
+      ],
+      "unknown_test": [
+        "visitor_x"
+      ]
+    },
+    "known_train_subjects": [
+      "worker_01",
+      "worker_02"
+    ],
+    "known_test_subjects": [
+      "worker_01"
+    ],
+    "unknown_test_subjects": [
+      "visitor_x"
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "qc": {
+    "totalCaptures": 4,
+    "passedCaptures": 4,
+    "failedCaptures": 0,
+    "totalFrames": 144,
+    "totalDurationMs": 5760.0,
+    "failedMessages": []
+  },
+  "baseline": {
+    "method": "nearest_center_feature_baseline",
+    "notes": "Uses spectrogram image features as a reproducible baseline before a real ResNet checkpoint is available.",
+    "warnings": [
+      "known_test does not cover registered identities: ['worker_02']"
+    ],
+    "sample_summary": {
+      "total_samples": 28,
+      "samples_by_split": {
+        "known_train": 14,
+        "known_test": 7,
+        "unknown_test": 7
+      },
+      "subjects_by_split": {
+        "known_train": [
+          "worker_01",
+          "worker_02"
+        ],
+        "known_test": [
+          "worker_01"
+        ],
+        "unknown_test": [
+          "visitor_x"
+        ]
+      },
+      "known_train_subjects": [
+        "worker_01",
+        "worker_02"
+      ],
+      "known_test_subjects": [
+        "worker_01"
+      ],
+      "unknown_test_subjects": [
+        "visitor_x"
+      ]
+    },
+    "distance_threshold": 1.397682,
+    "threshold_calibration_split": "known_test",
+    "threshold_margin": 1.05,
+    "closed_set": {
+      "accuracy": 0.8571,
+      "macro_precision": 0.5,
+      "macro_recall": 0.4286,
+      "macro_f1": 0.4615,
+      "labels": [
+        "worker_01",
+        "worker_02"
+      ],
+      "confusion_matrix": [
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_set": {
+      "unknown_test_samples": 7,
+      "unknown_rejection_rate": 1.0,
+      "false_acceptance_rate": 0.0,
+      "auroc": 1.0,
+      "fpr95": 0.0
+    }
+  },
+  "resnetPreflight": {
+    "model": "resnet18",
+    "epochs": 20,
+    "batch_size": 16,
+    "samples_path": "./data/generated/samples.csv",
+    "torch_available": false,
+    "torch_status": "No module named 'torch'",
+    "ready_for_training": false,
+    "blocking_issues": [],
+    "warnings": [
+      "known_test does not cover registered identities: ['worker_02']"
+    ],
+    "sample_summary": {
+      "total_samples": 28,
+      "samples_by_split": {
+        "known_train": 14,
+        "known_test": 7,
+        "unknown_test": 7
+      },
+      "subjects_by_split": {
+        "known_train": [
+          "worker_01",
+          "worker_02"
+        ],
+        "known_test": [
+          "worker_01"
+        ],
+        "unknown_test": [
+          "visitor_x"
+        ]
+      },
+      "known_train_subjects": [
+        "worker_01",
+        "worker_02"
+      ],
+      "known_test_subjects": [
+        "worker_01"
+      ],
+      "unknown_test_subjects": [
+        "visitor_x"
+      ]
+    }
+  },
+  "resnetTraining": {},
+  "captureProfile": {
+    "profile_id": "iwr1843_dca1000_reference",
+    "capture_mode": "future_live_dca1000_udp",
+    "ready_for_live_capture": false,
+    "live_udp_implemented": false,
+    "profile": {
+      "profile_id": "iwr1843_dca1000_reference",
+      "capture_mode": "future_live_dca1000_udp",
+      "device_model": "IWR1843",
+      "capture_card": "DCA1000",
+      "radar_config_path": "data/radar_configs/iwr1843_default.json",
+      "mmwave_config_path": "",
+      "network": {
+        "host_ip": "192.168.33.30",
+        "data_port": 4098,
+        "config_port": 4096,
+        "fpga_ip": "192.168.33.180",
+        "fpga_config_port": 4096,
+        "packet_buffer_bytes": 2097152
+      },
+      "serial": {
+        "cli_port": "COM4",
+        "baud_rate": 115200,
+        "config_file": ""
+      },
+      "reference_dimensions": {
+        "adc_samples": 64,
+        "chirps_per_frame": 32,
+        "rx_channels": 4,
+        "tx_channels": 1,
+        "sample_rate_hz": 2000000,
+        "frame_period_ms": 45.551
+      },
+      "constraints": {
+        "udp_not_implemented": true,
+        "reference_repository": "https://github.com/AndyYu0010/real-time-radar",
+        "reference_scope": "XWR1843 EVM + DCA1000 UDP capture and Range-Doppler/Range-Angle plotting"
+      },
+      "notes": [
+        "This project keeps offline ADC replay as the V1 path.",
+        "Use this profile to record and verify future DCA1000 live-capture settings.",
+        "After receiving the real IWR1843 .cfg file, set mmwave_config_path and rerun check_capture_profile.py."
+      ]
+    },
+    "radar_config": {
+      "sample_rate_hz": 5000000,
+      "adc_samples": 256,
+      "chirps_per_frame": 128,
+      "rx_channels": 4,
+      "tx_channels": 1,
+      "frame_period_ms": 40.0,
+      "iq_interleaved": true,
+      "dtype": "int16"
+    },
+    "mmwave_config_summary": null,
+    "issue_counts": {
+      "error": 0,
+      "warning": 2,
+      "info": 4
+    },
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "UDP_NOT_IMPLEMENTED",
+        "message": "当前项目仍以离线 ADC/准实时回放为主，UDP 在线收包是后续扩展。"
+      },
+      {
+        "severity": "info",
+        "code": "REFERENCE_DIMENSION_DIFFERS",
+        "message": "参考仓库示例 adc_samples=64，当前 RadarConfig adc_samples=256；真实数据到位后以采集 cfg 为准。"
+      },
+      {
+        "severity": "info",
+        "code": "REFERENCE_DIMENSION_DIFFERS",
+        "message": "参考仓库示例 chirps_per_frame=32，当前 RadarConfig chirps_per_frame=128；真实数据到位后以采集 cfg 为准。"
+      },
+      {
+        "severity": "info",
+        "code": "REFERENCE_DIMENSION_DIFFERS",
+        "message": "参考仓库示例 sample_rate_hz=2000000，当前 RadarConfig sample_rate_hz=5000000；真实数据到位后以采集 cfg 为准。"
+      },
+      {
+        "severity": "info",
+        "code": "REFERENCE_DIMENSION_DIFFERS",
+        "message": "参考仓库示例 frame_period_ms=45.551，当前 RadarConfig frame_period_ms=40.0；真实数据到位后以采集 cfg 为准。"
+      },
+      {
+        "severity": "warning",
+        "code": "MMWAVE_CFG_NOT_ATTACHED",
+        "message": "尚未附加真实 IWR1843 .cfg 文件；拿到数据后需补齐并重新校验。"
+      }
+    ]
+  },
+  "readiness": {
+    "ready_for_real_experiment": false,
+    "manifest": {
+      "total_captures": 4,
+      "captures_by_split": {
+        "known_test": 1,
+        "known_train": 2,
+        "unknown_test": 1
+      },
+      "captures_by_condition": {
+        "mask_gloves": 1,
+        "normal": 1,
+        "protective_suit": 1,
+        "unknown_entry": 1
+      },
+      "subjects_by_split": {
+        "known_test": [
+          "worker_01"
+        ],
+        "known_train": [
+          "worker_01",
+          "worker_02"
+        ],
+        "unknown_test": [
+          "visitor_x"
+        ]
+      },
+      "demo_only": true
+    },
+    "qc": {
+      "total_captures": 4,
+      "passed_captures": 4,
+      "failed_captures": 0,
+      "failed_messages": []
+    },
+    "samples": {
+      "total_samples": 28,
+      "samples_by_split": {
+        "known_test": 7,
+        "known_train": 14,
+        "unknown_test": 7
+      },
+      "samples_by_condition": {
+        "mask_gloves": 7,
+        "normal": 7,
+        "protective_suit": 7,
+        "unknown_entry": 7
+      },
+      "subjects_by_split": {
+        "known_test": [
+          "worker_01"
+        ],
+        "known_train": [
+          "worker_01",
+          "worker_02"
+        ],
+        "unknown_test": [
+          "visitor_x"
+        ]
+      }
+    },
+    "baseline": {
+      "closed_set": {
+        "accuracy": 0.8571,
+        "macro_precision": 0.5,
+        "macro_recall": 0.4286,
+        "macro_f1": 0.4615,
+        "labels": [
+          "worker_01",
+          "worker_02"
+        ],
+        "confusion_matrix": [
+          [
+            6,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "open_set": {
+        "unknown_test_samples": 7,
+        "unknown_rejection_rate": 1.0,
+        "false_acceptance_rate": 0.0,
+        "auroc": 1.0,
+        "fpr95": 0.0
+      }
+    },
+    "resnet_preflight": {
+      "torch_available": false,
+      "ready_for_training": false,
+      "blocking_issues": [],
+      "warnings": [
+        "known_test does not cover registered identities: ['worker_02']"
+      ]
+    },
+    "capture_profile": {
+      "profile_id": "iwr1843_dca1000_reference",
+      "capture_mode": "future_live_dca1000_udp",
+      "ready_for_live_capture": false,
+      "live_udp_implemented": false,
+      "issue_counts": {
+        "error": 0,
+        "warning": 2,
+        "info": 4
+      }
+    },
+    "blockers": [
+      "当前 manifest 全部是 synthetic demo，不能作为正式实验结果。",
+      "known_test 未覆盖已注册身份：['worker_02']。"
+    ],
+    "warnings": [
+      "known_test does not cover registered identities: ['worker_02']",
+      "当前环境未安装 PyTorch；可先完成数据链路，正式训练前再安装。",
+      "在线采集准备：当前项目仍以离线 ADC/准实时回放为主，UDP 在线收包是后续扩展。",
+      "在线采集准备：尚未附加真实 IWR1843 .cfg 文件；拿到数据后需补齐并重新校验。",
+      "在线 UDP 收包尚未纳入首版实现，当前以离线 ADC/准实时回放为主。"
+    ]
+  }
+}

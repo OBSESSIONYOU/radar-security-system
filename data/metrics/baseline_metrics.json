@@ -1,0 +1,67 @@
+{
+  "method": "nearest_center_feature_baseline",
+  "notes": "Uses spectrogram image features as a reproducible baseline before a real ResNet checkpoint is available.",
+  "warnings": [
+    "known_test does not cover registered identities: ['worker_02']"
+  ],
+  "sample_summary": {
+    "total_samples": 28,
+    "samples_by_split": {
+      "known_train": 14,
+      "known_test": 7,
+      "unknown_test": 7
+    },
+    "subjects_by_split": {
+      "known_train": [
+        "worker_01",
+        "worker_02"
+      ],
+      "known_test": [
+        "worker_01"
+      ],
+      "unknown_test": [
+        "visitor_x"
+      ]
+    },
+    "known_train_subjects": [
+      "worker_01",
+      "worker_02"
+    ],
+    "known_test_subjects": [
+      "worker_01"
+    ],
+    "unknown_test_subjects": [
+      "visitor_x"
+    ]
+  },
+  "distance_threshold": 1.397682,
+  "threshold_calibration_split": "known_test",
+  "threshold_margin": 1.05,
+  "closed_set": {
+    "accuracy": 0.8571,
+    "macro_precision": 0.5,
+    "macro_recall": 0.4286,
+    "macro_f1": 0.4615,
+    "labels": [
+      "worker_01",
+      "worker_02"
+    ],
+    "confusion_matrix": [
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "open_set": {
+    "unknown_test_samples": 7,
+    "unknown_rejection_rate": 1.0,
+    "false_acceptance_rate": 0.0,
+    "auroc": 1.0,
+    "fpr95": 0.0
+  }
+}

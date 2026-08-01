@@ -1,0 +1,5 @@
+adc_path,subject_id,session_id,radar_config_path,quality_status,message,file_size_bytes,bytes_per_frame,frame_count,remainder_bytes,duration_ms
+.\data\adc\demo_worker_01_normal.bin,worker_01,s01,.\data\radar_configs\iwr1843_default.json,pass,ok,18874368,524288,36,0,1440.0
+.\data\adc\demo_worker_02_mask_gloves.bin,worker_02,s01,.\data\radar_configs\iwr1843_default.json,pass,ok,18874368,524288,36,0,1440.0
+.\data\adc\demo_worker_01_test.bin,worker_01,s02,.\data\radar_configs\iwr1843_default.json,pass,ok,18874368,524288,36,0,1440.0
+.\data\adc\demo_unknown_entry.bin,visitor_x,s01,.\data\radar_configs\iwr1843_default.json,pass,ok,18874368,524288,36,0,1440.0
