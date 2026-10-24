@@ -1,14 +1,13 @@
 {
-  "model": "resnet18",
-  "epochs": 20,
-  "batch_size": 16,
-  "samples_path": ".\\data\\generated\\samples.csv",
+  "model": "not-trained",
   "torch_available": false,
-  "torch_status": "No module named 'torch'",
+  "torch_status": "合成演示：未使用真实采集数据，分数仅为界面示例，不代表实测性能。",
   "ready_for_training": false,
-  "blocking_issues": [],
+  "blocking_issues": [
+    "合成演示：未使用真实采集数据，分数仅为界面示例，不代表实测性能。"
+  ],
   "warnings": [
-    "known_test does not cover registered identities: ['worker_02']"
+    "合成演示：未使用真实采集数据，分数仅为界面示例，不代表实测性能。"
   ],
   "sample_summary": {
     "total_samples": 28,

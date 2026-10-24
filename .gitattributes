@@ -1,0 +1,4 @@
+# Keep provenance hashes stable in Windows and Linux checkouts.
+data/**/*.json text eol=lf
+data/**/*.csv text eol=lf
+data/**/*.png binary

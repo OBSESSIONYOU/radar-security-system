@@ -1,8 +1,8 @@
 {
-  "method": "nearest_center_feature_baseline",
-  "notes": "Uses spectrogram image features as a reproducible baseline before a real ResNet checkpoint is available.",
+  "method": "synthetic_ui_fixture",
+  "notes": "合成演示：未使用真实采集数据，分数仅为界面示例，不代表实测性能。",
   "warnings": [
-    "known_test does not cover registered identities: ['worker_02']"
+    "合成演示：未使用真实采集数据，分数仅为界面示例，不代表实测性能。"
   ],
   "sample_summary": {
     "total_samples": 28,
@@ -34,34 +34,17 @@
       "visitor_x"
     ]
   },
-  "distance_threshold": 1.397682,
-  "threshold_calibration_split": "known_test",
-  "threshold_margin": 1.05,
   "closed_set": {
-    "accuracy": 0.8571,
-    "macro_precision": 0.5,
-    "macro_recall": 0.4286,
-    "macro_f1": 0.4615,
-    "labels": [
-      "worker_01",
-      "worker_02"
-    ],
-    "confusion_matrix": [
-      [
-        6,
-        1
-      ],
-      [
-        0,
-        0
-      ]
-    ]
+    "accuracy": null,
+    "macro_precision": null,
+    "macro_recall": null,
+    "macro_f1": null
   },
   "open_set": {
     "unknown_test_samples": 7,
-    "unknown_rejection_rate": 1.0,
-    "false_acceptance_rate": 0.0,
-    "auroc": 1.0,
-    "fpr95": 0.0
+    "unknown_rejection_rate": null,
+    "false_acceptance_rate": null,
+    "auroc": null,
+    "fpr95": null
   }
 }

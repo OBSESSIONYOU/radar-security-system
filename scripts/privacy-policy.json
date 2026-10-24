@@ -1,109 +1,151 @@
 {
   "approved_data": {
     "data/dashboard_events.json": [
-      "1b957b3f1850475e07b6a443423e1f8f3c111f251e503cd8856c99ac75969fac"
+      "1b957b3f1850475e07b6a443423e1f8f3c111f251e503cd8856c99ac75969fac",
+      "4141d46cff54c05aab78444a618142719d3840f41a09b4ea6083b675476513c9",
+      "8499404f14d902dca7e461e2c56b11fa8639b53a8fd1f19c90c0c92a67ee0e44"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0000.png": [
-      "d147b50474ee9208aeaba6abddcc480868b22fc1734583573c8521707b89364f"
+      "d147b50474ee9208aeaba6abddcc480868b22fc1734583573c8521707b89364f",
+      "6bb1d62518e0b392809b2bc8ac77b611e17f6e8e5114a7412a16848e15ae4112"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0001.png": [
-      "0922e53582cdb2d7c524213c546742d61e5164eefb37b7d1f3be8d633be8e5e0"
+      "0922e53582cdb2d7c524213c546742d61e5164eefb37b7d1f3be8d633be8e5e0",
+      "9dbab15b9494f3aa1ff04ab76a4ffdcbdbf5c74e9ff5c714026467cb9061dcf3"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0002.png": [
-      "32e8f54f4aa0941bb0202dd410b0c124405a14173ea68eebf83d1b018a480fc0"
+      "32e8f54f4aa0941bb0202dd410b0c124405a14173ea68eebf83d1b018a480fc0",
+      "d37a2985b786c7e502349e1629d77bb8494feb80cd7dd15377f00762cd2cc980"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0003.png": [
-      "09d9b73ec2babdfb694d0d345b3836660af9dfff2d49481636f678675cf6c902"
+      "09d9b73ec2babdfb694d0d345b3836660af9dfff2d49481636f678675cf6c902",
+      "8ae0891f6c680d457f8c732ee0dc1a527081ffafab71467a4dc32df5864d18ea"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0004.png": [
-      "117d5e028d2b4884a35c1d182f7f654d9e6342f99263800ab05957911e364a51"
+      "117d5e028d2b4884a35c1d182f7f654d9e6342f99263800ab05957911e364a51",
+      "a421cccf14e544f57a9eec61a688e2baf7b6b42008ea5a0ea0a65673ec0fd8ff"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0005.png": [
-      "fb365646fd0a61e82d91ae399af644b0d7d09ef5b188a20f8a826ee5aedd6f95"
+      "fb365646fd0a61e82d91ae399af644b0d7d09ef5b188a20f8a826ee5aedd6f95",
+      "359c2aca9caaa5e28f5f67e4e14a84bdecb8e686afb00e1c7b1dcbf9957a899a"
     ],
     "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0006.png": [
-      "a8b249d8d4737897a9a1f7966442657117e9e52f8dc43be9c8966336c5053011"
+      "a8b249d8d4737897a9a1f7966442657117e9e52f8dc43be9c8966336c5053011",
+      "952c20b01b4ca52f28173b4954c820611a7c9b6e9462a4f93d7d2c63a232a303"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0000.png": [
-      "e0adb66518425caa1d42dc9824500a4f620dabe5ff8e35f8b483207e1f73e863"
+      "e0adb66518425caa1d42dc9824500a4f620dabe5ff8e35f8b483207e1f73e863",
+      "b99e3002b9901bde6a3d30ccac7d3b456b9a89d2975fafc0c3e2a35f65aca968"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0001.png": [
-      "2bfa35e6e966eaf513b419994752d2872b0ce5fa5e80e9489addde6054ffb4bf"
+      "2bfa35e6e966eaf513b419994752d2872b0ce5fa5e80e9489addde6054ffb4bf",
+      "6393bc7f182da1cc95483fdcceeeff30df21ae78a2e62e60e06880acf55abeff"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0002.png": [
-      "52eb30dbf11e529b655c906d06d26e9222a386bfddeb89d23dad4677625ac691"
+      "52eb30dbf11e529b655c906d06d26e9222a386bfddeb89d23dad4677625ac691",
+      "c419742ee491dc0fb9a5b191849aef44f7da2fbf83e7fb64be0486181a038c48"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0003.png": [
-      "15492c666e3ed803463ea412964d2c7c0c5baf667a092fc1988ab435b2fec016"
+      "15492c666e3ed803463ea412964d2c7c0c5baf667a092fc1988ab435b2fec016",
+      "9bf41e223c5be8a7fc75912c1092cbc12d484702f65b919dcacd22dea4e7b647"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0004.png": [
-      "64bc2d935d4a018ebd1416ea47c4753dbe276026ea02c3d6208fe5fe51bf4c11"
+      "64bc2d935d4a018ebd1416ea47c4753dbe276026ea02c3d6208fe5fe51bf4c11",
+      "871e067d240ae63e15c5e20b8ae5e5378779238d7f929dc53eb071c77e87bf01"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0005.png": [
-      "8683dd20273270f36c93bd01ff98123cac12c074096f274876117f7ba61c366f"
+      "8683dd20273270f36c93bd01ff98123cac12c074096f274876117f7ba61c366f",
+      "7f453e01fdd28fb8e639a06196ac5cd0154cb2bc1d9eb583dc2233e5cb457729"
     ],
     "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0006.png": [
-      "c39669c707aa822ec2067a6fdedd685f2caf84ee9a1ede4959fbd65fcc710746"
+      "c39669c707aa822ec2067a6fdedd685f2caf84ee9a1ede4959fbd65fcc710746",
+      "e6be403e61c7a4e32d223e4880f942b93c7c701fb594f29597b3c1ede4350dd2"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0000.png": [
-      "cf4a1df8b29dc79bb3dddbaa3849ab4dbbdee912c11d15927709a4271240677b"
+      "cf4a1df8b29dc79bb3dddbaa3849ab4dbbdee912c11d15927709a4271240677b",
+      "cb1d7ac3a47972bf1ae07a65337dc2fe386a883d117463419838d64be8542dd7"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0001.png": [
-      "41c822d37919126552355610cd4c65ce02e808c7f5f226eb4b4a62804c43fb00"
+      "41c822d37919126552355610cd4c65ce02e808c7f5f226eb4b4a62804c43fb00",
+      "4690241c2967f57141b6ff932a447300273727f4213a9b870cdc42f23b421f9b"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0002.png": [
-      "3b6af5d8091c974cf0851055ee8d78765c0b6b387f935dba8168e451c0971bf8"
+      "3b6af5d8091c974cf0851055ee8d78765c0b6b387f935dba8168e451c0971bf8",
+      "886634c41fc678586ad72388cf292665a0bb099e55540fe3c9e450c3e84be68b"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0003.png": [
-      "4e463ba0f1c012f25901185819c5f2d7ba0e3c72ed366b9946c023a5c1e753be"
+      "4e463ba0f1c012f25901185819c5f2d7ba0e3c72ed366b9946c023a5c1e753be",
+      "47b81fab55dafcacf3a89395f4bacad1f37aeff751e8a93c912d5e781e6768d5"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0004.png": [
-      "3fb5a43c0c475ed1b9d3c4841e87a25e743d2d2ed07b16f527aaaa234c066368"
+      "3fb5a43c0c475ed1b9d3c4841e87a25e743d2d2ed07b16f527aaaa234c066368",
+      "a1794c80a8f10416c10f75c2b2dd0a7a994afcce737f98b5f2e1ac322c6448ba"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0005.png": [
-      "98114c380684ca3fc6ad33b6f2bfa86b276330ff63618d745ccc907d05588695"
+      "98114c380684ca3fc6ad33b6f2bfa86b276330ff63618d745ccc907d05588695",
+      "8cbf253bbd1546c3cb134fd6b8d00a12031ad593a10e235d8d9978fcae8278b1"
     ],
     "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0006.png": [
-      "8aad42dc4dccf7cbaeae370f269b9d39f0aaf5ecbd912f6e7272c2aa0c564442"
+      "8aad42dc4dccf7cbaeae370f269b9d39f0aaf5ecbd912f6e7272c2aa0c564442",
+      "c1764b0468dee09efb360da958f42f9a52d96bf2f27d425c7eeb54abe8958d7c"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0000.png": [
-      "b73d7c7e9777c9878ea44bf4f730bbda84c4adb3789c2ee2d185a877cac24a0c"
+      "b73d7c7e9777c9878ea44bf4f730bbda84c4adb3789c2ee2d185a877cac24a0c",
+      "41cf0e6d48cd50bc68c3e5d6c1469252d50f6722ffd22124934c7962656c9e8a"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0001.png": [
-      "3ff08eb55fc4ce9c5a375ebbc7ba7570d005ab8b1dc7e1f206c9aa7e205eefb8"
+      "3ff08eb55fc4ce9c5a375ebbc7ba7570d005ab8b1dc7e1f206c9aa7e205eefb8",
+      "30eb0d361a2293cabfd1af552e00c4305e69c592e43863532e6273598b59df13"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0002.png": [
-      "4bac0099db377274d08b4710a872dd5b143956f26b5a2bf1d5bd42a292069625"
+      "4bac0099db377274d08b4710a872dd5b143956f26b5a2bf1d5bd42a292069625",
+      "bffe15a7cc55f2c7b5348dddbbab9a8327bddbc7beed9752317fd9ac77ca12a9"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0003.png": [
-      "4558d045b9fd3f5474606140e8d626b521a1276268967924b616594f8bad116b"
+      "4558d045b9fd3f5474606140e8d626b521a1276268967924b616594f8bad116b",
+      "0aeb307ee2d1c892aaefc9f7bf64dd30ec2983fe32815c4f8cac760dfdbeb5a9"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0004.png": [
-      "20cd67001724462908e974a880116c0b4510d2eb1d5e6c2010dadfe84025c400"
+      "20cd67001724462908e974a880116c0b4510d2eb1d5e6c2010dadfe84025c400",
+      "5578f2748e86288886a3b0a626d8dbe72de9546fa0475ade1a3398944ae981bf"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0005.png": [
-      "fa800befbee979b9e5bd435985d37614a892b7566d5eaa06067e21e392159e07"
+      "fa800befbee979b9e5bd435985d37614a892b7566d5eaa06067e21e392159e07",
+      "a79d71963340812adef1fdfe74088897bac41ba27c886b3e6e0f61d58bd03ccc"
     ],
     "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0006.png": [
-      "984aeb21f67568c1d247dc72759603d70064faab49a6f735844ac3c6cd99296e"
+      "984aeb21f67568c1d247dc72759603d70064faab49a6f735844ac3c6cd99296e",
+      "390f5d5dd985dd1a16be092deb345ce6c58578269959d414b33c65e1e190fdbc"
     ],
     "data/metrics/baseline_metrics.json": [
-      "575f2bd2d3b171588e90c08dacdbb5635ae5ca1062c9cf2fe2346b5a476449ba"
+      "575f2bd2d3b171588e90c08dacdbb5635ae5ca1062c9cf2fe2346b5a476449ba",
+      "278156859147e152dd483a2fc35cbd915bd26b5d838697f477160177ecf066c5",
+      "d3976a410cf20d8aa9e6c1c929731e8e160c7512eb55d184b3e0347339b96770"
     ],
     "data/metrics/baseline_predictions.csv": [
-      "6940514e29c2eefbcf52e5cc8ce2b8700ac8bf263975a27acfba894825424d70"
+      "6940514e29c2eefbcf52e5cc8ce2b8700ac8bf263975a27acfba894825424d70",
+      "c3f2d6038da323abf9171996d6bf45294ca8a695a2a8e50546b830024196b783"
     ],
     "data/metrics/resnet_preflight.json": [
-      "3a6792803e32412312bb86346d48611eb84104ff86f603446d908a0cef73e90b"
+      "3a6792803e32412312bb86346d48611eb84104ff86f603446d908a0cef73e90b",
+      "7e476676aec1957c1dd086fb5a8c5608c3b4ac9888bf58a91b37ca8ea1456071",
+      "b74da02490a517a4f5736faa52ea3b84c5bcf434700ef03f6d6b6b6cb02995c1"
     ],
     "data/pipeline_status.json": [
-      "62c36e7c5ecc7b3714e245c4526ede91a2fd351608207da5046693150a8700d1"
+      "62c36e7c5ecc7b3714e245c4526ede91a2fd351608207da5046693150a8700d1",
+      "949bec2d649d40e9df423913e85da545a76592c7683bbf3baf1121f4329eabe3",
+      "1238a22653764550b3acf41f37528597722e53d159349ac801d6f5a60b0b2deb"
     ],
     "data/qc/.gitkeep": [
       "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     ],
     "data/qc/adc_qc_report.csv": [
-      "f3c76555cc12ba5bf5c14a28664d481fd152217a26306ed9b38b854726b8019f"
+      "f3c76555cc12ba5bf5c14a28664d481fd152217a26306ed9b38b854726b8019f",
+      "4fac6c4d9c437b4a4389d299659333d9eef4819287851748ab86c490cd07c27b"
+    ],
+    "data/synthetic-provenance.json": [
+      "8527e540fd95f9ac653c6fce589f3c0944a46a29ac3739c1bf89ce34ca09d8db",
+      "70a1f1a7b6520c8cfe2da4d3ece666cbe8dcf8187e6c1d700a61e782566d415e"
     ]
   },
   "allow_sparkbox_encrypted_backups": false
