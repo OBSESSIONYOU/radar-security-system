@@ -1,0 +1,110 @@
+{
+  "approved_data": {
+    "data/dashboard_events.json": [
+      "1b957b3f1850475e07b6a443423e1f8f3c111f251e503cd8856c99ac75969fac"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0000.png": [
+      "d147b50474ee9208aeaba6abddcc480868b22fc1734583573c8521707b89364f"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0001.png": [
+      "0922e53582cdb2d7c524213c546742d61e5164eefb37b7d1f3be8d633be8e5e0"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0002.png": [
+      "32e8f54f4aa0941bb0202dd410b0c124405a14173ea68eebf83d1b018a480fc0"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0003.png": [
+      "09d9b73ec2babdfb694d0d345b3836660af9dfff2d49481636f678675cf6c902"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0004.png": [
+      "117d5e028d2b4884a35c1d182f7f654d9e6342f99263800ab05957911e364a51"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0005.png": [
+      "fb365646fd0a61e82d91ae399af644b0d7d09ef5b188a20f8a826ee5aedd6f95"
+    ],
+    "data/generated/spectrograms/known_test/worker_01/worker_01_s02_0006.png": [
+      "a8b249d8d4737897a9a1f7966442657117e9e52f8dc43be9c8966336c5053011"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0000.png": [
+      "e0adb66518425caa1d42dc9824500a4f620dabe5ff8e35f8b483207e1f73e863"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0001.png": [
+      "2bfa35e6e966eaf513b419994752d2872b0ce5fa5e80e9489addde6054ffb4bf"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0002.png": [
+      "52eb30dbf11e529b655c906d06d26e9222a386bfddeb89d23dad4677625ac691"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0003.png": [
+      "15492c666e3ed803463ea412964d2c7c0c5baf667a092fc1988ab435b2fec016"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0004.png": [
+      "64bc2d935d4a018ebd1416ea47c4753dbe276026ea02c3d6208fe5fe51bf4c11"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0005.png": [
+      "8683dd20273270f36c93bd01ff98123cac12c074096f274876117f7ba61c366f"
+    ],
+    "data/generated/spectrograms/known_train/worker_01/worker_01_s01_0006.png": [
+      "c39669c707aa822ec2067a6fdedd685f2caf84ee9a1ede4959fbd65fcc710746"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0000.png": [
+      "cf4a1df8b29dc79bb3dddbaa3849ab4dbbdee912c11d15927709a4271240677b"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0001.png": [
+      "41c822d37919126552355610cd4c65ce02e808c7f5f226eb4b4a62804c43fb00"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0002.png": [
+      "3b6af5d8091c974cf0851055ee8d78765c0b6b387f935dba8168e451c0971bf8"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0003.png": [
+      "4e463ba0f1c012f25901185819c5f2d7ba0e3c72ed366b9946c023a5c1e753be"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0004.png": [
+      "3fb5a43c0c475ed1b9d3c4841e87a25e743d2d2ed07b16f527aaaa234c066368"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0005.png": [
+      "98114c380684ca3fc6ad33b6f2bfa86b276330ff63618d745ccc907d05588695"
+    ],
+    "data/generated/spectrograms/known_train/worker_02/worker_02_s01_0006.png": [
+      "8aad42dc4dccf7cbaeae370f269b9d39f0aaf5ecbd912f6e7272c2aa0c564442"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0000.png": [
+      "b73d7c7e9777c9878ea44bf4f730bbda84c4adb3789c2ee2d185a877cac24a0c"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0001.png": [
+      "3ff08eb55fc4ce9c5a375ebbc7ba7570d005ab8b1dc7e1f206c9aa7e205eefb8"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0002.png": [
+      "4bac0099db377274d08b4710a872dd5b143956f26b5a2bf1d5bd42a292069625"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0003.png": [
+      "4558d045b9fd3f5474606140e8d626b521a1276268967924b616594f8bad116b"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0004.png": [
+      "20cd67001724462908e974a880116c0b4510d2eb1d5e6c2010dadfe84025c400"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0005.png": [
+      "fa800befbee979b9e5bd435985d37614a892b7566d5eaa06067e21e392159e07"
+    ],
+    "data/generated/spectrograms/unknown_test/visitor_x/visitor_x_s01_0006.png": [
+      "984aeb21f67568c1d247dc72759603d70064faab49a6f735844ac3c6cd99296e"
+    ],
+    "data/metrics/baseline_metrics.json": [
+      "575f2bd2d3b171588e90c08dacdbb5635ae5ca1062c9cf2fe2346b5a476449ba"
+    ],
+    "data/metrics/baseline_predictions.csv": [
+      "6940514e29c2eefbcf52e5cc8ce2b8700ac8bf263975a27acfba894825424d70"
+    ],
+    "data/metrics/resnet_preflight.json": [
+      "3a6792803e32412312bb86346d48611eb84104ff86f603446d908a0cef73e90b"
+    ],
+    "data/pipeline_status.json": [
+      "62c36e7c5ecc7b3714e245c4526ede91a2fd351608207da5046693150a8700d1"
+    ],
+    "data/qc/.gitkeep": [
+      "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    ],
+    "data/qc/adc_qc_report.csv": [
+      "f3c76555cc12ba5bf5c14a28664d481fd152217a26306ed9b38b854726b8019f"
+    ]
+  },
+  "allow_sparkbox_encrypted_backups": false
+}

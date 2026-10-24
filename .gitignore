@@ -1,0 +1,5 @@
+
+
+# Local Python check artifacts
+__pycache__/
+*.py[cod]
